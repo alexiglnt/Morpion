@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    background: linear-gradient(90deg, #CA6E3C, #658477);
+    color: #f1f1f1;
+    padding: clamp(20px, 5vw, 50px) 10px 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1 span {
+    border-bottom: 1px solid;
+    font-size: 60px;
+    margin-left: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    max-width: 400px;
+    background: #f1f1f1f1;
+    border: 1px solid #f1f1f1;
+    margin: 50px auto;
+}
+
+.cell {
+    aspect-ratio: 1/1;
+    background: #2a335b;
+    color: #f1f1f1;
+    cursor: pointer;
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+h1 {
+    font-family: Playfair Display SC, sans-serif;
+    font-size: 45px;
+}
+
+h1 span:nth-child(1){
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Roboto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid #f1f1f1;
+    background: #f1f1f1f1;
+}
+
+.cell {
+    aspect-ratio: 1/1;
+    background: #090f29;
+    color: #f1f1f1;
+    cursor: pointer;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
